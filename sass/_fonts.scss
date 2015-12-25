@@ -1,0 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:400,300,700&subset=latin,cyrillic);
+
+@mixin font_Comfortaa {
+
+    font-family: 'Comfortaa', cursive;
+}
+
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
+@mixin  font_PT_Sans {
+    font-family: 'PT Sans', sans-serif;
+}
