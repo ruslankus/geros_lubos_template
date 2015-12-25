@@ -1,0 +1,60 @@
+header {
+
+    background: url("../img/header_bg.jpg") center center no-repeat;
+    background-size: cover;
+
+    div {
+
+        div.row {
+
+            nav {
+
+                .logo {
+
+                }
+
+                ul {
+
+                    list-style: none;
+
+                    li {
+                        float:left;
+                        margin-left: 20px;
+
+                        &.active {
+                            display:none;
+                        }
+
+                        a {
+                            color:white;
+                            text-decoration: none;
+                        }
+                    }
+
+
+                    &.lng-list {
+
+                        li {
+
+                            a {
+                                text-transform: uppercase;
+                            }
+                        }
+                    }
+
+                }
+
+            }
+
+
+            h1 {
+
+            }
+
+
+            h2 {
+
+            }
+        }
+    }
+}
