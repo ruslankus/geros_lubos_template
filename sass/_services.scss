@@ -1,0 +1,90 @@
+#services {
+        background-color: #f8f5f2;
+    div {
+        max-width: 1200px;
+        margin-right: auto;
+        margin-right: auto;
+        .row {
+            @media (min-width:$screen-sm) {
+                padding-left: 38px;
+                padding-right: 38px;
+            }
+
+            .header-holder{
+
+                h2 {
+                    @include font_Comfortaa;
+                    color:#f7941e;
+                    font-size: 24px;
+                    margin-bottom: 60px;
+                    @media (min-width:$screen-sm) {
+                        margin-top: 70px;
+                        font-size: 36px;
+                    }
+
+                    @media (min-width:$screen-md) {
+                        font-size: 48px;
+                        margin-top: 80px;
+                    }
+
+                    span {
+                        border-bottom: 2px solid #009ade;
+                        padding-bottom: 5px;
+                    }
+                }
+            }
+
+            .service {
+
+                background: top left no-repeat;
+                background-size: 70px auto;
+                padding-left: 75px;
+                min-height: 210px;
+                margin-bottom: 36px;
+                text-align: justify;
+                @media (min-width:$screen-sm) {
+                    background-size: 75px auto;
+                    padding-left: 105px;
+                    margin-bottom: 50px;
+                }
+
+                @media (min-width:$screen-md) {
+                    margin-bottom: 100px;
+                }
+
+                h3 {
+                    @include font_Comfortaa;
+                    font-size: 18px;
+                    font-weight: 600;
+                    margin-top: 0;
+                    @media (min-width:$screen-sm) {
+                        font-size: 24px;
+                    }
+                }
+
+                P {
+                    @include font_PT_Sans;
+                    font-size: 14px;
+                    line-height: 18px;
+                    @media (min-width:$screen-sm) {
+                        font-size: 16px;
+                        line-height: 24px;
+                    }
+                }
+
+                &.srv1 {
+
+
+                }
+
+
+                &.srv2 {
+
+
+                }
+            }//.service
+
+        }//row
+
+    }//div
+}

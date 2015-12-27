@@ -3225,6 +3225,7 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+/* ---------- header start -------------*/
 header {
   background: url("../img/header_bg.jpg") center center no-repeat;
   background-size: cover;
@@ -3346,3 +3347,62 @@ header {
       @media (min-width: 1200px) {
         header div div.row h2 {
           font-size: 36px; } }
+
+/* ---------- services start ----------*/
+#services {
+  background-color: #f8f5f2; }
+  #services div {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-right: auto; }
+    @media (min-width: 768px) {
+      #services div .row {
+        padding-left: 38px;
+        padding-right: 38px; } }
+    #services div .row .header-holder h2 {
+      font-family: 'Comfortaa', cursive;
+      color: #f7941e;
+      font-size: 24px;
+      margin-bottom: 60px; }
+      @media (min-width: 768px) {
+        #services div .row .header-holder h2 {
+          margin-top: 70px;
+          font-size: 36px; } }
+      @media (min-width: 992px) {
+        #services div .row .header-holder h2 {
+          font-size: 48px;
+          margin-top: 80px; } }
+      #services div .row .header-holder h2 span {
+        border-bottom: 2px solid #009ade;
+        padding-bottom: 5px; }
+    #services div .row .service {
+      background: top left no-repeat;
+      background-size: 70px auto;
+      padding-left: 75px;
+      min-height: 210px;
+      margin-bottom: 36px;
+      text-align: justify; }
+      @media (min-width: 768px) {
+        #services div .row .service {
+          background-size: 75px auto;
+          padding-left: 105px;
+          margin-bottom: 50px; } }
+      @media (min-width: 992px) {
+        #services div .row .service {
+          margin-bottom: 100px; } }
+      #services div .row .service h3 {
+        font-family: 'Comfortaa', cursive;
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 0; }
+        @media (min-width: 768px) {
+          #services div .row .service h3 {
+            font-size: 24px; } }
+      #services div .row .service P {
+        font-family: 'PT Sans', sans-serif;
+        font-size: 14px;
+        line-height: 18px; }
+        @media (min-width: 768px) {
+          #services div .row .service P {
+            font-size: 16px;
+            line-height: 24px; } }
