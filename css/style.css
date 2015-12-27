@@ -3406,3 +3406,68 @@ header {
           #services div .row .service P {
             font-size: 16px;
             line-height: 24px; } }
+
+/* ---------- out jobs start ----------*/
+#our_jobs {
+  padding-bottom: 20px; }
+  @media (min-width: 992px) {
+    #our_jobs {
+      padding-bottom: 50px; } }
+  #our_jobs > div {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto; }
+  #our_jobs div .row h2 {
+    font-family: 'Comfortaa', cursive;
+    color: #f7941e;
+    font-size: 24px;
+    margin-bottom: 60px; }
+    @media (min-width: 768px) {
+      #our_jobs div .row h2 {
+        margin-top: 70px;
+        font-size: 36px; } }
+    @media (min-width: 992px) {
+      #our_jobs div .row h2 {
+        font-size: 48px;
+        margin-top: 80px; } }
+    #our_jobs div .row h2 span {
+      border-bottom: 2px solid #009ade;
+      padding-bottom: 5px; }
+  #our_jobs div .filter-holder {
+    margin-bottom: 20px; }
+    #our_jobs div .filter-holder ul {
+      list-style: none;
+      text-align: center; }
+      @media (min-width: 768px) {
+        #our_jobs div .filter-holder ul {
+          text-align: left; } }
+      #our_jobs div .filter-holder ul li {
+        display: inline-block;
+        padding-right: 5px;
+        padding-left: 5px; }
+        #our_jobs div .filter-holder ul li a {
+          font-family: 'Comfortaa', cursive;
+          font-weight: 400;
+          font-size: 16px; }
+          @media (min-width: 768px) {
+            #our_jobs div .filter-holder ul li a {
+              font-size: 20px; } }
+          @media (min-width: 992px) {
+            #our_jobs div .filter-holder ul li a {
+              font-size: 24px; } }
+  #our_jobs div .gallery-holder .col-xs-4 {
+    width: 50%; }
+    @media (min-width: 480px) {
+      #our_jobs div .gallery-holder .col-xs-4 {
+        width: 33.3333%; } }
+  @media (min-width: 768px) {
+    #our_jobs div .gallery-holder .col-sm-3 {
+      width: 25%; } }
+  #our_jobs div .gallery-holder .photo-holder {
+    margin-bottom: 30px; }
+    #our_jobs div .gallery-holder .photo-holder a {
+      width: 100%;
+      display: block; }
+      #our_jobs div .gallery-holder .photo-holder a img {
+        display: block;
+        max-width: 100%; }
