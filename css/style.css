@@ -3407,7 +3407,7 @@ header {
             font-size: 16px;
             line-height: 24px; } }
 
-/* ---------- out jobs start ----------*/
+/* ---------- our jobs start ----------*/
 #our_jobs {
   padding-bottom: 20px; }
   @media (min-width: 992px) {
@@ -3471,3 +3471,182 @@ header {
       #our_jobs div .gallery-holder .photo-holder a img {
         display: block;
         max-width: 100%; }
+
+/* ---------- contacts start ----------*/
+#contacts > div {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto; }
+#contacts div .row h2 {
+  font-family: 'Comfortaa', cursive;
+  color: #f7941e;
+  font-size: 24px;
+  margin-bottom: 60px; }
+  @media (min-width: 768px) {
+    #contacts div .row h2 {
+      margin-top: 70px;
+      font-size: 36px; } }
+  @media (min-width: 992px) {
+    #contacts div .row h2 {
+      font-size: 48px;
+      margin-top: 80px; } }
+  #contacts div .row h2 span {
+    border-bottom: 2px solid #009ade;
+    padding-bottom: 5px; }
+@media (min-width: 992px) {
+  #contacts div .contact-holder .l-side .descr-text {
+    background: url("../img/contacts-text-bg.png") top right no-repeat;
+    padding-right: 130px; } }
+#contacts div .contact-holder .l-side .descr-text p {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px; }
+  @media (min-width: 768px) {
+    #contacts div .contact-holder .l-side .descr-text p {
+      line-height: 18px; } }
+  @media (min-width: 992px) {
+    #contacts div .contact-holder .l-side .descr-text p {
+      font-size: 16px;
+      line-height: 20px; } }
+#contacts div .contact-holder .l-side .addres-holder {
+  border: 1px solid #f68e56;
+  padding-top: 16px;
+  padding-bottom: 16px; }
+  @media (min-width: 480px) {
+    #contacts div .contact-holder .l-side .addres-holder {
+      padding-bottom: 5px;
+      padding-top: 5px; } }
+  @media (min-width: 768px) {
+    #contacts div .contact-holder .l-side .addres-holder {
+      padding-left: 15px;
+      padding-bottom: 10px;
+      padding-top: 20px; } }
+  @media (min-width: 480px) {
+    #contacts div .contact-holder .l-side .addres-holder > p {
+      float: left;
+      width: 50%;
+      margin-bottom: 0;
+      line-height: 32px; } }
+  @media (min-width: 768px) {
+    #contacts div .contact-holder .l-side .addres-holder > p {
+      float: none;
+      width: 100%;
+      text-align: left;
+      margin-bottom: 18px; } }
+  #contacts div .contact-holder .l-side .addres-holder p {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #009ade; }
+    @media (min-width: 768px) {
+      #contacts div .contact-holder .l-side .addres-holder p {
+        font-size: 18px; } }
+    #contacts div .contact-holder .l-side .addres-holder p.mail {
+      font-weight: 400;
+      text-align: center;
+      color: #009ade; }
+      @media (min-width: 768px) {
+        #contacts div .contact-holder .l-side .addres-holder p.mail {
+          float: none;
+          width: 100%;
+          text-align: left; } }
+      #contacts div .contact-holder .l-side .addres-holder p.mail span {
+        display: inline-block;
+        margin-right: 10px; }
+        #contacts div .contact-holder .l-side .addres-holder p.mail span img {
+          width: 34px;
+          height: 24px; }
+          @media (min-width: 992px) {
+            #contacts div .contact-holder .l-side .addres-holder p.mail span img {
+              width: 50px;
+              height: 36px; } }
+    #contacts div .contact-holder .l-side .addres-holder p.phone {
+      text-align: center;
+      color: #009ade; }
+      @media (min-width: 768px) {
+        #contacts div .contact-holder .l-side .addres-holder p.phone {
+          float: none;
+          width: 100%;
+          text-align: left;
+          font-size: 16px; } }
+      #contacts div .contact-holder .l-side .addres-holder p.phone span:first-child {
+        margin-right: 10px; }
+        #contacts div .contact-holder .l-side .addres-holder p.phone span:first-child img {
+          width: 14px;
+          height: 31px; }
+          @media (min-width: 992px) {
+            #contacts div .contact-holder .l-side .addres-holder p.phone span:first-child img {
+              width: 24px;
+              height: 50px; } }
+#contacts div .contact-holder .r-side form {
+  margin-top: 20px; }
+  @media (min-width: 768px) {
+    #contacts div .contact-holder .r-side form {
+      margin-top: 0; } }
+  #contacts div .contact-holder .r-side form > div {
+    margin-bottom: 20px; }
+  #contacts div .contact-holder .r-side form label {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400; }
+    @media (min-width: 768px) {
+      #contacts div .contact-holder .r-side form label {
+        font-size: 18px; } }
+  #contacts div .contact-holder .r-side form .your-name div input {
+    border: 1px solid #f68e56;
+    width: 100%;
+    height: 32px; }
+    @media (min-width: 992px) {
+      #contacts div .contact-holder .r-side form .your-name div input {
+        height: 36px; } }
+  #contacts div .contact-holder .r-side form .phone-mail {
+    margin-bottom: 0; }
+    #contacts div .contact-holder .r-side form .phone-mail > div {
+      margin-bottom: 20px; }
+      @media (min-width: 480px) {
+        #contacts div .contact-holder .r-side form .phone-mail > div {
+          float: left;
+          width: 50%; }
+          #contacts div .contact-holder .r-side form .phone-mail > div:first-child {
+            padding-right: 15px; }
+          #contacts div .contact-holder .r-side form .phone-mail > div:last-child {
+            padding-left: 15px; } }
+    #contacts div .contact-holder .r-side form .phone-mail div input {
+      border: 1px solid #f68e56;
+      height: 32px; }
+      @media (min-width: 992px) {
+        #contacts div .contact-holder .r-side form .phone-mail div input {
+          height: 36px; } }
+    #contacts div .contact-holder .r-side form .phone-mail div.phone input {
+      width: 100%; }
+    #contacts div .contact-holder .r-side form .phone-mail div.mail input {
+      width: 100%; }
+  #contacts div .contact-holder .r-side form div textarea {
+    border: 1px solid #f68e56;
+    width: 100%;
+    resize: none;
+    height: 90px; }
+    @media (min-width: 992px) {
+      #contacts div .contact-holder .r-side form div textarea {
+        height: 120px; } }
+  #contacts div .contact-holder .r-side form .btn-holder {
+    text-align: center; }
+    @media (min-width: 480px) {
+      #contacts div .contact-holder .r-side form .btn-holder {
+        text-align: left; } }
+    #contacts div .contact-holder .r-side form .btn-holder button {
+      border: 1px solid #f68e56;
+      border-radius: 0;
+      font-family: 'PT Sans', sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      text-transform: uppercase;
+      text-align: center;
+      width: 180px;
+      height: 32px;
+      line-height: 32px;
+      padding: 0; }
+      @media (min-width: 992px) {
+        #contacts div .contact-holder .r-side form .btn-holder button {
+          font-size: 18px;
+          height: 36px;
+          line-height: 36px; } }
