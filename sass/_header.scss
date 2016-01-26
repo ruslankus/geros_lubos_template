@@ -1,3 +1,130 @@
+#nav-holder {
+			
+				position:relative;
+				margin-bottom: -90px;
+	
+				@media (min-width:$screen-sm) {
+					position: fixed;
+					width: 100%;
+					
+					&.move {
+						background-color: rgba(0, 0, 0, 0.5);
+						height: 90px;
+						z-index:22;
+					}
+										
+					& > nav {
+						margin-left: auto;
+						margin-right: auto;
+					}
+					
+				}
+	            nav {
+		                margin-top: 16px;
+		                @media (min-width:$screen-sm) {
+		                    margin-top: 18px;
+		                }
+	
+	                .logo-holder {
+	
+	                    img {
+	                        display: block;
+	                        width: 130px;
+	                        height: 39px;
+	                        @media (min-width:$screen-sm) {
+	                            width: 165px;
+	                            height: auto;
+	                        }
+	
+	                        @media (min-width:$screen-md) {
+	                            width: 185px;
+	                        }
+	
+	                        @media (min-width:$screen-lg) {
+	                            width: 190px;
+	                        }
+	                    }
+	                }
+	
+	                ul {
+	
+	                    list-style: none;
+	                    @media (min-width:$screen-sm) {
+	                        margin-top: 18px;
+	                    }
+	
+	                    li {
+	                        float:left;
+	                        margin-left: 20px;
+	
+	                        &.active {
+	                            display:none;
+	                            @media (min-width:$screen-sm) {
+	                                display: block;
+	                            }
+	                        }
+	
+	
+	                        a {
+	                            color:white;
+	                            text-decoration: none;
+	                            @include font_PT_Sans;
+	                            font-weight: 400;
+	                            font-size: 16px;
+	                            @media (min-width:$screen-sm) {
+	                                font-size: 18px;
+	                            }
+	
+	                            @media (min-width:$screen-md) {
+	                                font-size: 20px;
+	                            }
+	                        }
+	                    }
+	
+	
+	                    &.menu-list {
+	                        li {
+	                            a {
+	
+	                                &:hover {
+	                                    text-decoration: underline;
+	                                }
+	
+	                            }
+	                        }
+	                    }
+	
+	
+	                    &.lng-list {
+	
+	                        li {
+	
+	                            a {
+	                                text-transform: uppercase;
+	                                display: block;
+	                                width: 45px;
+	                                height: 45px;
+	                                border: 2px solid white;
+	                                line-height: 40px;
+	                                text-align: center;
+	                                @media (min-width:$screen-sm) {
+	                                    border:none;
+	                                    width: auto;
+	                                    height: auto;
+	                                    line-height:1.5;
+	                                }
+	                            }
+	                        }
+	                    }
+	
+	                }
+	
+	            }//nav
+          
+	
+	
+}//nav-holder
+
 header {
 
     background: url("../img/header_bg.jpg") center center no-repeat;
@@ -22,110 +149,10 @@ header {
         max-width: 1200px;
         margin-right: auto;
         margin-left: auto;
+        
         div.row {
-
-            nav {
-                margin-top: 16px;
-                @media (min-width:$screen-sm) {
-                    margin-top: 18px;
-                }
-
-                .logo-holder {
-
-                    img {
-                        display: block;
-                        width: 130px;
-                        height: 39px;
-                        @media (min-width:$screen-sm) {
-                            width: 165px;
-                            height: auto;
-                        }
-
-                        @media (min-width:$screen-md) {
-                            width: 185px;
-                        }
-
-                        @media (min-width:$screen-lg) {
-                            width: 190px;
-                        }
-                    }
-                }
-
-                ul {
-
-                    list-style: none;
-                    @media (min-width:$screen-sm) {
-                        margin-top: 18px;
-                    }
-
-                    li {
-                        float:left;
-                        margin-left: 20px;
-
-                        &.active {
-                            display:none;
-                            @media (min-width:$screen-sm) {
-                                display: block;
-                            }
-                        }
-
-
-                        a {
-                            color:white;
-                            text-decoration: none;
-                            @include font_PT_Sans;
-                            font-weight: 400;
-                            font-size: 16px;
-                            @media (min-width:$screen-sm) {
-                                font-size: 18px;
-                            }
-
-                            @media (min-width:$screen-md) {
-                                font-size: 20px;
-                            }
-                        }
-                    }
-
-
-                    &.menu-list {
-                        li {
-                            a {
-
-                                &:hover {
-                                    text-decoration: underline;
-                                }
-
-                            }
-                        }
-                    }
-
-
-                    &.lng-list {
-
-                        li {
-
-                            a {
-                                text-transform: uppercase;
-                                display: block;
-                                width: 45px;
-                                height: 45px;
-                                border: 2px solid white;
-                                line-height: 40px;
-                                text-align: center;
-                                @media (min-width:$screen-sm) {
-                                    border:none;
-                                    width: auto;
-                                    height: auto;
-                                    line-height:1.5;
-                                }
-                            }
-                        }
-                    }
-
-                }
-
-            }
-
+			
+			
 
             h1 {
                 @include font_Comfortaa;

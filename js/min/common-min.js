@@ -1,0 +1,1 @@
+function checkPos(){$(window).scrollTop()>5?$("#nav-holder").addClass("move"):$("#nav-holder").removeClass("move")}$(function(){checkPos(),$(window).scroll(function(){checkPos()}),$(".menu-list > li > a, #logo-link").click(function(){var o=0,n=$(this).attr("href");if("/"!==n)var o=$(n).offset().top;return $("html,body").animate({scrollTop:o},1e3,function(){}),!1})});
