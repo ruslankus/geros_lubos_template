@@ -3226,80 +3226,77 @@ button.close {
   .hidden-print {
     display: none !important; } }
 /* ---------- header start -------------*/
-#nav-holder {
-  position: relative;
-  margin-bottom: -90px; }
+@media (min-width: 768px) {
+  #nav-holder {
+    position: fixed;
+    width: 100%; }
+    #nav-holder.move {
+      background-color: rgba(0, 0, 0, 0.5);
+      height: 90px;
+      z-index: 22; }
+    #nav-holder > nav {
+      margin-left: auto;
+      margin-right: auto; } }
+#nav-holder nav {
+  margin-top: 16px; }
   @media (min-width: 768px) {
-    #nav-holder {
-      position: fixed;
-      width: 100%; }
-      #nav-holder.move {
-        background-color: rgba(0, 0, 0, 0.5);
-        height: 90px;
-        z-index: 22; }
-      #nav-holder > nav {
-        margin-left: auto;
-        margin-right: auto; } }
-  #nav-holder nav {
-    margin-top: 16px; }
+    #nav-holder nav {
+      margin-top: 18px; } }
+  #nav-holder nav .logo-holder img {
+    display: block;
+    width: 130px;
+    height: 39px; }
     @media (min-width: 768px) {
-      #nav-holder nav {
+      #nav-holder nav .logo-holder img {
+        width: 165px;
+        height: auto; } }
+    @media (min-width: 992px) {
+      #nav-holder nav .logo-holder img {
+        width: 185px; } }
+    @media (min-width: 1200px) {
+      #nav-holder nav .logo-holder img {
+        width: 190px; } }
+  #nav-holder nav ul {
+    list-style: none; }
+    @media (min-width: 768px) {
+      #nav-holder nav ul {
         margin-top: 18px; } }
-    #nav-holder nav .logo-holder img {
-      display: block;
-      width: 130px;
-      height: 39px; }
-      @media (min-width: 768px) {
-        #nav-holder nav .logo-holder img {
-          width: 165px;
-          height: auto; } }
-      @media (min-width: 992px) {
-        #nav-holder nav .logo-holder img {
-          width: 185px; } }
-      @media (min-width: 1200px) {
-        #nav-holder nav .logo-holder img {
-          width: 190px; } }
-    #nav-holder nav ul {
-      list-style: none; }
-      @media (min-width: 768px) {
-        #nav-holder nav ul {
-          margin-top: 18px; } }
-      #nav-holder nav ul li {
-        float: left;
-        margin-left: 20px; }
-        #nav-holder nav ul li.active {
-          display: none; }
-          @media (min-width: 768px) {
-            #nav-holder nav ul li.active {
-              display: block; } }
-        #nav-holder nav ul li a {
-          color: white;
-          text-decoration: none;
-          font-family: 'PT Sans', sans-serif;
-          font-weight: 400;
-          font-size: 16px; }
-          @media (min-width: 768px) {
-            #nav-holder nav ul li a {
-              font-size: 18px; } }
-          @media (min-width: 992px) {
-            #nav-holder nav ul li a {
-              font-size: 20px; } }
-      #nav-holder nav ul.menu-list li a:hover {
-        text-decoration: underline; }
-      #nav-holder nav ul.lng-list li a {
-        text-transform: uppercase;
-        display: block;
-        width: 45px;
-        height: 45px;
-        border: 2px solid white;
-        line-height: 40px;
-        text-align: center; }
+    #nav-holder nav ul li {
+      float: left;
+      margin-left: 20px; }
+      #nav-holder nav ul li.active {
+        display: none; }
         @media (min-width: 768px) {
-          #nav-holder nav ul.lng-list li a {
-            border: none;
-            width: auto;
-            height: auto;
-            line-height: 1.5; } }
+          #nav-holder nav ul li.active {
+            display: block; } }
+      #nav-holder nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-family: 'PT Sans', sans-serif;
+        font-weight: 400;
+        font-size: 16px; }
+        @media (min-width: 768px) {
+          #nav-holder nav ul li a {
+            font-size: 18px; } }
+        @media (min-width: 992px) {
+          #nav-holder nav ul li a {
+            font-size: 20px; } }
+    #nav-holder nav ul.menu-list li a:hover {
+      text-decoration: underline; }
+    #nav-holder nav ul.lng-list li a {
+      text-transform: uppercase;
+      display: block;
+      width: 45px;
+      height: 45px;
+      border: 2px solid white;
+      line-height: 40px;
+      text-align: center; }
+      @media (min-width: 768px) {
+        #nav-holder nav ul.lng-list li a {
+          border: none;
+          width: auto;
+          height: auto;
+          line-height: 1.5; } }
 
 header {
   background: url("../img/header_bg.jpg") center center no-repeat;
