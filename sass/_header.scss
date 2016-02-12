@@ -1,24 +1,24 @@
 #nav-holder {
-			
-				
-	
+				position:static;
+				margin-bottom: -90px;					
 				@media (min-width:$screen-sm) {
 					position: fixed;
-					width: 100%;
-					
+					width: 100%;					
 					&.move {
 						background-color: rgba(0, 0, 0, 0.5);
 						height: 90px;
 						z-index:22;
 					}
 										
-					& > nav {
+					& > .row {
+						max-width: 1200px;
 						margin-left: auto;
 						margin-right: auto;
 					}
 					
 				}
 	            nav {
+		               
 		                margin-top: 16px;
 		                @media (min-width:$screen-sm) {
 		                    margin-top: 18px;
