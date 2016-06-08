@@ -159,7 +159,26 @@
                 </div>
             </div><!--/l-side -->
             
-            <div class="col-xs-12 col-sm-7 col-md-6 col-lg-5  r-side" id="formHolder">
+            <div class="col-xs-12 col-sm-7 col-md-6 col-lg-5  r-side">
+            	
+                <div id="spinner-holder">
+                	<table>
+                		<tr>
+                			<td>
+                                <div id="circularG">
+                                    <div id="circularG_1" class="circularG"></div>
+                                    <div id="circularG_2" class="circularG"></div>
+                                    <div id="circularG_3" class="circularG"></div>
+                                    <div id="circularG_4" class="circularG"></div>
+                                    <div id="circularG_5" class="circularG"></div>
+                                    <div id="circularG_6" class="circularG"></div>
+                                    <div id="circularG_7" class="circularG"></div>
+                                    <div id="circularG_8" class="circularG"></div>
+                                </div><!--/circularG -->
+                            </td>
+                		</tr>
+                	</table>
+                </div><!--/spinner-holder -->
 
                 <div id="resp-holder">
                     <table class="fail">
@@ -173,13 +192,13 @@
                             </td>
                         </tr>
                     </table>
-                </div>
-
+                </div><!--/res-holder -->
+                
             	<form class="form" method="post" action="#">
                 	<div class="your-name">
                     	<label>Ваше имя</label>
                         <div>
-                        	<input type="text" name="name" >
+                        	<input type="text" >
                         </div>
                     </div>
                     
@@ -187,14 +206,14 @@
                     	<div class="phone">
                             <label>Ваше phone</label>
                             <div>
-                                <input type="text" name="phone" >
+                                <input type="text" >
                             </div>
                         </div><!--/mail -->
                         
                     	<div class="mail">
                             <label>Ваше email</label>
                             <div>
-                                <input type="email" name="email" >
+                                <input type="email" >
                             </div>
                         </div><!--/mail -->
                         
@@ -203,12 +222,12 @@
                     <div>
                     	<label>Ваше сообщениe</label>
                         <div>
-                    		<textarea name="message"></textarea>
+                    		<textarea></textarea>
                         </div>
                     </div>
                     
                     <div class="btn-holder">
-                    	<button id="sendMsg" type="submit" class="btn btn-default" >Send</button>
+                    	<button class="btn btn-default" >Send</button>
                 	</div>
                 </form>
             </div><!--/r-side -->
